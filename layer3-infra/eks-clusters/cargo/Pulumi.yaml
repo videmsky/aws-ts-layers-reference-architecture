@@ -1,0 +1,10 @@
+name: cargo
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+description: A TypeScript program to deploy a Kubernetes cluster on AWS
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: kubernetes-aws-typescript

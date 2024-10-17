@@ -1,0 +1,9 @@
+config:
+  aws:region: us-west-2
+  cargo:desiredClusterSize: "3"
+  cargo:eksNodeInstanceType: t3.medium
+  cargo:maxClusterSize: "6"
+  cargo:minClusterSize: "3"
+  cargo:name: lotctl
+  cargo:networking: team-ce/layer1-network/lotctl
+  cargo:vpcNetworkCidr: 10.0.0.0/16

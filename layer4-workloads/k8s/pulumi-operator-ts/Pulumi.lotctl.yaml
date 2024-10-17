@@ -1,0 +1,2 @@
+config:
+  pulumi-operator-ts:namespace: pulumi-operator

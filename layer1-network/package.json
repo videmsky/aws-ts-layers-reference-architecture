@@ -1,0 +1,15 @@
+{
+	"name": "layer1-network",
+	"main": "index.ts",
+	"devDependencies": {
+		"@types/node": "^18",
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"@pulumi/aws": "^6.50.1",
+		"@pulumi/awsx": "^2.15.0",
+		"@pulumi/pulumi": "^3.113.0",
+		"ip-address": "^5.9.2",
+		"jsbn": "^1.1.0"
+	}
+}

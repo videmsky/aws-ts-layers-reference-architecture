@@ -1,0 +1,5 @@
+config:
+  aws:region: us-west-2
+  aws-ts-k8s-nginx:cargo: team-ce/cargo/lotctl
+# environment:
+#   - lotctl-aws

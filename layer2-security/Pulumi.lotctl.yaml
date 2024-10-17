@@ -1,0 +1,3 @@
+config:
+  layer2-security:name: laci
+  layer2-security:networking: team-ce/layer1-network/lotctl

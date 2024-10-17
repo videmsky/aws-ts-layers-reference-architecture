@@ -1,0 +1,15 @@
+name: layer1-network
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+description: A minimal TypeScript Pulumi program
+template:
+  config:
+    aws:region:
+      description: The AWS region to deploy into.
+      default: us-west-2
+    azCount:
+      description: The number of Availability Zones to deploy the application into.
+    baseCidr:
+      description: The base CIDR block to use for the VPC.

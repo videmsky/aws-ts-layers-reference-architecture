@@ -1,0 +1,13 @@
+name: layer2-security
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+description: A minimal TypeScript Pulumi program
+template:
+  config:
+    name:
+      description: (Required) Naming prefix for resources.
+    networking:
+      description: (Required) The reference to the networking stack on which the database will be deployed
+        (in the form <organization_or_user>/<projectName>/<stackName> e.g. myUsername/multicloud/dev)
