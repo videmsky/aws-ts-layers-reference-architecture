@@ -50,3 +50,5 @@ for (const policy of managedPolicyArns) {
     { policyArn: policy, role: iamRole.id }, { parent: iamRole }
   );
 }
+
+export const sgId = sg.id;

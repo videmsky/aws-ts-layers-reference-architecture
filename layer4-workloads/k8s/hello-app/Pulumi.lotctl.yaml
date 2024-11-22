@@ -1,0 +1,3 @@
+config:
+  hello-app:cargo: team-ce/cargo/lotctl
+  hello-app:k8sNamespace: argocd

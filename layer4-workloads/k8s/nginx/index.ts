@@ -12,7 +12,7 @@ const k8sProvider = new k8s.Provider("k8s-provider", {
 
 const namespace = new k8s.core.v1.Namespace("nginx", {
 	metadata: { name: "nginx" }
-});
+}, { provider: k8sProvider });
 
 const nginxDeployment = new k8s.apps.v1.Deployment("nginx-deployment", {
 	metadata: { namespace: namespace.metadata.name },

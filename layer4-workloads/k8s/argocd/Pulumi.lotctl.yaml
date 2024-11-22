@@ -1,0 +1,3 @@
+config:
+  argocd:k8sNamespace: argocd
+  argocd:cargo: team-ce/cargo/lotctl
